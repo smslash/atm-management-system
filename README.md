@@ -4,7 +4,27 @@ An ATM management system in C, supporting features like user registration, accou
 
 ## Author 
 
-* [ssengerb](https://github.com/smslash)
+* [smlsash](https://github.com/smslash?tab=repositories)
+
+## Run
+
+Follow these instructions to start the program
+
+```
+git clone https://01.alem.school/git/ssengerb/atm-management-system
+```
+
+```
+cd atm-management-system
+```
+
+```
+make
+```
+
+```
+./atm
+```
 
 ## Objective
 
@@ -30,7 +50,7 @@ You will be provided with an ATM management system where users can do the follow
 
 A folder which you can find here is provided, this folder will have the following `fs`(file system):
 
-```console
+```bash
 .
 |
 ├── data
@@ -53,7 +73,7 @@ The format of the content saved in the file will be displayed like this :
 
 `users.txt` (id, name, password):
 
-```console
+```
 0 Alice 1234password
 1 Michel password1234
 ....
@@ -61,7 +81,7 @@ The format of the content saved in the file will be displayed like this :
 
 `records.txt` (id, user_id, user name, account id, date of creation, country, phone nº, balance, type of account) :
 
-```console
+```
 0 0 Alice 0 10/02/2020 german 986134231 11090830.00 current
 1 1 Michel 2 10/10/2021 portugal 914134431 1920.42 savings
 2 0 Alice 1 10/10/2000 finland 986134231 1234.21 savings
@@ -122,14 +142,3 @@ This project will help you learn about:
 - Terminal UI
 - Memory management
 - Pipes and child processes
-
-
-
-
-
-
-
-
-
-
-
